@@ -63,27 +63,27 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/kursus/data-analytics" className="hover:text-[#FF6B35] transition-colors">
-                  Data Analytics
+                  Analitik Data
                 </Link>
               </li>
               <li>
                 <Link href="/kursus/digital-marketing" className="hover:text-[#FF6B35] transition-colors">
-                  Digital Marketing
+                  Pemasaran Digital
                 </Link>
               </li>
               <li>
                 <Link href="/kursus/ui-ux-design" className="hover:text-[#FF6B35] transition-colors">
-                  UI/UX Design
+                  Desain UI/UX
                 </Link>
               </li>
               <li>
                 <Link href="/kursus/programming" className="hover:text-[#FF6B35] transition-colors">
-                  Programming
+                  Pemrograman
                 </Link>
               </li>
               <li>
                 <Link href="/kursus/ai-skills" className="hover:text-[#FF6B35] transition-colors">
-                  AI Skills
+                  Keterampilan AI
                 </Link>
               </li>
             </ul>

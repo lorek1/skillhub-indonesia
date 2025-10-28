@@ -7,7 +7,7 @@ import { trackViewContent } from '@/lib/fbpixel';
 const allCourses = [
   {
     slug: 'data-analytics',
-    title: 'Data Analytics',
+    title: 'Analitik Data',
     description: 'Pelajari cara menganalisis data menggunakan tools modern seperti Excel, Python, dan SQL. Cocok untuk pemula yang ingin memulai karir di bidang data.',
     level: 'Pemula',
     duration: '8 minggu',
@@ -16,7 +16,7 @@ const allCourses = [
   },
   {
     slug: 'digital-marketing',
-    title: 'Digital Marketing',
+    title: 'Pemasaran Digital',
     description: 'Kuasai strategi pemasaran digital dari SEO, social media marketing, hingga Google Ads untuk meningkatkan bisnis online Anda.',
     level: 'Pemula - Menengah',
     duration: '6 minggu',
@@ -25,7 +25,7 @@ const allCourses = [
   },
   {
     slug: 'ui-ux-design',
-    title: 'UI/UX Design',
+    title: 'Desain UI/UX',
     description: 'Belajar merancang interface yang menarik dan user experience yang optimal menggunakan Figma dan prinsip design thinking.',
     level: 'Pemula',
     duration: '10 minggu',
@@ -34,7 +34,7 @@ const allCourses = [
   },
   {
     slug: 'programming',
-    title: 'Programming (Python/JavaScript)',
+    title: 'Pemrograman (Python/JavaScript)',
     description: 'Mulai perjalanan coding Anda dengan mempelajari Python dan JavaScript, dua bahasa pemrograman paling populer di industri.',
     level: 'Pemula',
     duration: '12 minggu',
@@ -43,7 +43,7 @@ const allCourses = [
   },
   {
     slug: 'ai-skills',
-    title: 'AI Skills',
+    title: 'Keterampilan AI',
     description: 'Pahami fundamental AI dan machine learning, serta cara mengimplementasikannya dalam proyek nyata menggunakan tools modern.',
     level: 'Menengah',
     duration: '10 minggu',
@@ -52,7 +52,7 @@ const allCourses = [
   },
   {
     slug: 'web-development',
-    title: 'Web Development',
+    title: 'Pengembangan Web',
     description: 'Bangun website modern dan responsive dari nol menggunakan HTML, CSS, JavaScript, dan framework populer seperti React.',
     level: 'Pemula - Menengah',
     duration: '14 minggu',
@@ -61,7 +61,7 @@ const allCourses = [
   },
   {
     slug: 'content-creation',
-    title: 'Content Creation',
+    title: 'Pembuatan Konten',
     description: 'Pelajari cara membuat konten yang engaging untuk berbagai platform social media dan membangun personal brand Anda.',
     level: 'Pemula',
     duration: '6 minggu',
@@ -70,7 +70,7 @@ const allCourses = [
   },
   {
     slug: 'business-analytics',
-    title: 'Business Analytics',
+    title: 'Analitik Bisnis',
     description: 'Gunakan data untuk membuat keputusan bisnis yang lebih baik dengan teknik analytics dan visualization yang efektif.',
     level: 'Menengah',
     duration: '8 minggu',

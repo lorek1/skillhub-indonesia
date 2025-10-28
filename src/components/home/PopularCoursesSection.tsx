@@ -6,7 +6,7 @@ import { trackViewContent } from '@/lib/fbpixel';
 const courses = [
   {
     slug: 'data-analytics',
-    title: 'Data Analytics',
+    title: 'Analitik Data',
     description: 'Pelajari cara menganalisis data menggunakan tools modern seperti Excel, Python, dan SQL. Cocok untuk pemula yang ingin memulai karir di bidang data.',
     level: 'Pemula',
     duration: '8 minggu',
@@ -14,7 +14,7 @@ const courses = [
   },
   {
     slug: 'digital-marketing',
-    title: 'Digital Marketing',
+    title: 'Pemasaran Digital',
     description: 'Kuasai strategi pemasaran digital dari SEO, social media marketing, hingga Google Ads untuk meningkatkan bisnis online Anda.',
     level: 'Pemula - Menengah',
     duration: '6 minggu',
@@ -22,7 +22,7 @@ const courses = [
   },
   {
     slug: 'ui-ux-design',
-    title: 'UI/UX Design',
+    title: 'Desain UI/UX',
     description: 'Belajar merancang interface yang menarik dan user experience yang optimal menggunakan Figma dan prinsip design thinking.',
     level: 'Pemula',
     duration: '10 minggu',
@@ -30,7 +30,7 @@ const courses = [
   },
   {
     slug: 'programming',
-    title: 'Programming (Python/JavaScript)',
+    title: 'Pemrograman (Python/JavaScript)',
     description: 'Mulai perjalanan coding Anda dengan mempelajari Python dan JavaScript, dua bahasa pemrograman paling populer di industri.',
     level: 'Pemula',
     duration: '12 minggu',
@@ -38,7 +38,7 @@ const courses = [
   },
   {
     slug: 'ai-skills',
-    title: 'AI Skills',
+    title: 'Keterampilan AI',
     description: 'Pahami fundamental AI dan machine learning, serta cara mengimplementasikannya dalam proyek nyata menggunakan tools modern.',
     level: 'Menengah',
     duration: '10 minggu',

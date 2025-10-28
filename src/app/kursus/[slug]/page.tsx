@@ -9,7 +9,7 @@ import LeadFormModal from '@/components/LeadFormModal';
 
 const coursesData: Record<string, any> = {
   'data-analytics': {
-    title: 'Data Analytics',
+    title: 'Analitik Data',
     description: 'Pelajari cara menganalisis data menggunakan tools modern seperti Excel, Python, dan SQL untuk membuat keputusan bisnis yang lebih baik.',
     level: 'Pemula',
     duration: '8 minggu',
@@ -47,7 +47,7 @@ const coursesData: Record<string, any> = {
     },
   },
   'digital-marketing': {
-    title: 'Digital Marketing',
+    title: 'Pemasaran Digital',
     description: 'Kuasai strategi pemasaran digital lengkap dari SEO, social media marketing, content marketing hingga paid advertising.',
     level: 'Pemula - Menengah',
     duration: '6 minggu',
@@ -85,7 +85,7 @@ const coursesData: Record<string, any> = {
     },
   },
   'ui-ux-design': {
-    title: 'UI/UX Design',
+    title: 'Desain UI/UX',
     description: 'Belajar merancang interface yang menarik dan user experience yang optimal menggunakan Figma dan prinsip design thinking.',
     level: 'Pemula',
     duration: '10 minggu',
@@ -123,7 +123,7 @@ const coursesData: Record<string, any> = {
     },
   },
   'programming': {
-    title: 'Programming (Python/JavaScript)',
+    title: 'Pemrograman (Python/JavaScript)',
     description: 'Mulai perjalanan coding Anda dengan mempelajari Python dan JavaScript, dua bahasa pemrograman paling populer dan versatile.',
     level: 'Pemula',
     duration: '12 minggu',
@@ -161,7 +161,7 @@ const coursesData: Record<string, any> = {
     },
   },
   'ai-skills': {
-    title: 'AI Skills',
+    title: 'Keterampilan AI',
     description: 'Pahami fundamental AI dan machine learning, serta cara mengimplementasikannya dalam proyek nyata dengan tools modern.',
     level: 'Menengah',
     duration: '10 minggu',
