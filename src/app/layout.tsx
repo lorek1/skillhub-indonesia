@@ -116,6 +116,9 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         
+        {/* Facebook Domain Verification - Replace with your actual code */}
+        <meta name="facebook-domain-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+        
         {/* Open Graph Image Meta Tags - Explicit for Facebook */}
         <meta property="og:image" content="https://skillhubindonesia.site/og-image.png" />
         <meta property="og:image:secure_url" content="https://skillhubindonesia.site/og-image.png" />
