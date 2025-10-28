@@ -44,14 +44,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SkillHub Indonesia - Belajar Digital Skills Gratis",
     description: "Platform pembelajaran digital terbaik untuk meningkatkan skill teknologi Anda. 200+ kursus gratis, sertifikat profesional, dan komunitas aktif.",
-    url: 'https://skillhubindonesia.site',
     siteName: 'SkillHub Indonesia',
     locale: 'id_ID',
     type: 'website',
     images: [
       {
-        url: 'https://skillhubindonesia.site/og-image.png',
-        secureUrl: 'https://skillhubindonesia.site/og-image.png',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'SkillHub Indonesia - Platform Pembelajaran Digital',
@@ -63,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "SkillHub Indonesia - Belajar Digital Skills Gratis",
     description: "Platform pembelajaran digital terbaik di Indonesia. 200+ kursus gratis!",
-    images: ['https://skillhubindonesia.site/og-image.png'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
