@@ -49,7 +49,8 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://skillhubindonesia.site/og-image.png',
+        secureUrl: 'https://skillhubindonesia.site/og-image.png',
         width: 1200,
         height: 630,
         alt: 'SkillHub Indonesia - Platform Pembelajaran Digital',
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "SkillHub Indonesia - Belajar Digital Skills Gratis",
     description: "Platform pembelajaran digital terbaik di Indonesia. 200+ kursus gratis!",
-    images: ['/og-image.png'],
+    images: ['https://skillhubindonesia.site/og-image.png'],
   },
   robots: {
     index: true,
