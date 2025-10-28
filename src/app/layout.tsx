@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: "SkillHub Indonesia - Platform Pembelajaran Digital Gratis",
     template: "%s | SkillHub Indonesia"
   },
-  description: "Belajar digital skills gratis di SkillHub Indonesia. 200+ kursus online dalam Data Analytics, Digital Marketing, UI/UX Design, Programming, dan AI. Sertifikat profesional, webinar eksklusif, dan komunitas learner aktif.",
+  description: "Belajar digital skills gratis di SkillHub Indonesia. 200+ kursus online dalam Analitik Data, Pemasaran Digital, Desain UI/UX, Pemrograman, dan AI. Sertifikat profesional, webinar eksklusif, dan komunitas learner aktif.",
   keywords: [
     "kursus online gratis",
     "belajar digital skills",
