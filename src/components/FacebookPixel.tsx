@@ -13,9 +13,14 @@ export default function FacebookPixel() {
     const consent = getCookieConsent();
     setConsentGiven(consent === 'accepted');
 
+    // Debug log
+    console.log('Facebook Pixel - Cookie Consent:', consent);
+    console.log('Facebook Pixel ID:', FB_PIXEL_ID);
+
     // Listen for consent changes
     const handleConsentChange = (e: CustomEvent) => {
       setConsentGiven(e.detail === 'accepted');
+      console.log('Cookie consent changed:', e.detail);
     };
 
     window.addEventListener('cookieConsentChange', handleConsentChange as EventListener);
@@ -25,7 +30,15 @@ export default function FacebookPixel() {
     };
   }, []);
 
+  // Show warning if pixel ID is not set
+  useEffect(() => {
+    if (FB_PIXEL_ID === 'YOUR_PIXEL_ID') {
+      console.warn('⚠️ Facebook Pixel ID not configured! Add NEXT_PUBLIC_FB_PIXEL_ID to .env.local');
+    }
+  }, []);
+
   if (!consentGiven) {
+    console.log('Facebook Pixel not loaded - waiting for cookie consent');
     return null;
   }
 

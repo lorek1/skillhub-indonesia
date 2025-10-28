@@ -92,7 +92,7 @@ export default function LeadForm({ onClose, isModal = false }: LeadFormProps) {
               placeholder="Masukkan nama lengkap Anda"
               className={`w-full px-4 py-3 border ${
                 errors.nama ? 'border-red-500' : 'border-gray-300'
-              } rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B35] focus:border-transparent`}
+              } rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B35] focus:border-transparent bg-white text-gray-900 placeholder:text-gray-400`}
             />
             {errors.nama && (
               <p className="mt-1 text-sm text-red-500">{errors.nama.message}</p>
@@ -117,7 +117,7 @@ export default function LeadForm({ onClose, isModal = false }: LeadFormProps) {
               placeholder="+628123456789"
               className={`w-full px-4 py-3 border ${
                 errors.whatsapp ? 'border-red-500' : 'border-gray-300'
-              } rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B35] focus:border-transparent`}
+              } rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B35] focus:border-transparent bg-white text-gray-900 placeholder:text-gray-400`}
             />
             {errors.whatsapp && (
               <p className="mt-1 text-sm text-red-500">{errors.whatsapp.message}</p>
