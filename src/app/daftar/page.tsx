@@ -2,8 +2,18 @@ import type { Metadata } from 'next';
 import LeadForm from '@/components/LeadForm';
 
 export const metadata: Metadata = {
-  title: 'Daftar Gratis - SkillHub Indonesia',
-  description: 'Daftar gratis dan dapatkan akses ke 200+ kursus digital skills terbaik. Mulai perjalanan belajar Anda sekarang!',
+  title: 'Daftar Gratis',
+  description: 'Daftar gratis di SkillHub Indonesia dan dapatkan akses instan ke 200+ kursus digital skills. Data Analytics, Digital Marketing, UI/UX Design, Programming, AI Skills. Tanpa biaya pendaftaran, tanpa kartu kredit.',
+  keywords: ['daftar kursus gratis', 'registrasi gratis', 'belajar online gratis', 'daftar skillhub'],
+  openGraph: {
+    title: 'Daftar Gratis - Akses 200+ Kursus Digital Skills',
+    description: 'Mulai perjalanan belajar Anda hari ini. 100% gratis, tanpa biaya tersembunyi.',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function DaftarPage() {
