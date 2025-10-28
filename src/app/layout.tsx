@@ -34,17 +34,17 @@ export const metadata: Metadata = {
   authors: [{ name: "SkillHub Indonesia" }],
   creator: "SkillHub Indonesia",
   publisher: "SkillHub Indonesia",
-  metadataBase: new URL('https://skillhubindonesia.com'),
+  metadataBase: new URL('https://skillhubindonesia.site'),
   alternates: {
-    canonical: 'https://skillhubindonesia.com',
+    canonical: 'https://skillhubindonesia.site',
     languages: {
-      'id-ID': 'https://skillhubindonesia.com',
+      'id-ID': 'https://skillhubindonesia.site',
     },
   },
   openGraph: {
     title: "SkillHub Indonesia - Belajar Digital Skills Gratis",
     description: "Platform pembelajaran digital terbaik untuk meningkatkan skill teknologi Anda. 200+ kursus gratis, sertifikat profesional, dan komunitas aktif.",
-    url: 'https://skillhubindonesia.com',
+    url: 'https://skillhubindonesia.site',
     siteName: 'SkillHub Indonesia',
     locale: 'id_ID',
     type: 'website',
@@ -90,12 +90,10 @@ export default function RootLayout({
     '@type': 'EducationalOrganization',
     name: 'SkillHub Indonesia',
     description: 'Platform pembelajaran digital gratis untuk meningkatkan skill teknologi di Indonesia',
-    url: 'https://skillhubindonesia.com',
-    logo: 'https://skillhubindonesia.com/logo.png',
+    url: 'https://skillhubindonesia.site',
+    logo: 'https://skillhubindonesia.site/logo.png',
     sameAs: [
       'https://facebook.com/skillhubindonesia',
-      'https://instagram.com/skillhubindonesia',
-      'https://linkedin.com/company/skillhubindonesia',
     ],
     contactPoint: {
       '@type': 'ContactPoint',

@@ -108,7 +108,7 @@ function ThankYouContent() {
               <p className="text-gray-600 mb-4">Bagikan ke teman Anda!</p>
               <div className="flex justify-center gap-4">
                 <a
-                  href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://skillhubindonesia.com')}`}
+                  href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://skillhubindonesia.site')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-2 bg-[#1877F2] text-white rounded-lg hover:bg-[#166FE5] transition-colors"
@@ -116,7 +116,7 @@ function ThankYouContent() {
                   Share di Facebook
                 </a>
                 <a
-                  href={`https://wa.me/?text=${encodeURIComponent('Saya baru saja mendaftar di SkillHub Indonesia untuk belajar digital skills gratis! Join sekarang: https://skillhubindonesia.com')}`}
+                  href={`https://wa.me/?text=${encodeURIComponent('Saya baru saja mendaftar di SkillHub Indonesia untuk belajar digital skills gratis! Join sekarang: https://skillhubindonesia.site')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-2 bg-[#25D366] text-white rounded-lg hover:bg-[#20BD5A] transition-colors"

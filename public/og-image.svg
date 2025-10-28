@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <rect width="1200" height="630" fill="url(#ogGradient)"/>
+  
+  <defs>
+    <linearGradient id="ogGradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Circle -->
+  <circle cx="200" cy="315" r="100" fill="white" opacity="0.2"/>
+  <text x="200" y="355" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">SH</text>
+  
+  <!-- Main Title -->
+  <text x="380" y="240" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white">SkillHub Indonesia</text>
+  
+  <!-- Subtitle -->
+  <text x="380" y="320" font-family="Arial, sans-serif" font-size="48" fill="white" opacity="0.95">Belajar Digital Skills Gratis</text>
+  
+  <!-- Features -->
+  <text x="380" y="400" font-family="Arial, sans-serif" font-size="36" fill="white" opacity="0.9">✓ 200+ Kursus Online</text>
+  <text x="380" y="460" font-family="Arial, sans-serif" font-size="36" fill="white" opacity="0.9">✓ Sertifikat Profesional</text>
+  <text x="380" y="520" font-family="Arial, sans-serif" font-size="36" fill="white" opacity="0.9">✓ 100% Gratis</text>
+</svg>

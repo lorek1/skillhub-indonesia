@@ -22,7 +22,7 @@ export default function SyaratKetentuanPage() {
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Penerimaan Ketentuan</h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Selamat datang di SkillHub Indonesia. Dengan mengakses dan menggunakan platform kami di 
-              https://skillhubindonesia.com, Anda setuju untuk terikat dengan syarat dan ketentuan berikut. 
+              https://skillhubindonesia.site, Anda setuju untuk terikat dengan syarat dan ketentuan berikut. 
               Jika Anda tidak setuju dengan ketentuan ini, mohon untuk tidak menggunakan layanan kami.
             </p>
 

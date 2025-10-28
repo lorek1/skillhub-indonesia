@@ -152,6 +152,7 @@ verification: {
    - Показывается при шеринге в Facebook
    - 1200x630px, < 8MB
    - Привлекательный дизайн = выше CTR
+   - Конвертируйте SVG в PNG! (см. IMAGES-SETUP.md)
 
 2. **og:title** & **og:description**
    - Должны соответствовать тексту рекламы
